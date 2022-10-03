@@ -1,1 +1,39 @@
-:root
+:root{
+    --background-color: #3CDBC0;
+    --white: #FFFFFF;
+    --grey: #4a4a4a;
+    --font-family: 'Rubik', sans-serif;
+}
+.header{
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+       
+
+   
+
+}
+.logo{
+    width: 155px;
+    position: relative;
+   
+}
+.list{
+    font-size: 16px;
+    color: var(--grey);
+}  
+.main{
+    background-color: var(--background-color);
+    height: 100vw;
+    width: 100vw;
+    font-family: var(--font-family);
+    color: var(--white);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.title{
+    font-size: 30px;
+    line-height: border;
+}
