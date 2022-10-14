@@ -23,16 +23,16 @@
   position: relative;
   padding: 15px;
 }
-.letters {
-  text-transform: uppercase;
-  text-decoration: none;
-}
 .list {
   color: var(--grey);
   line-height: 10px;
   display: flex;
   gap: 20px;
   padding: 10px;
+}
+.letters {
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .main {
@@ -63,8 +63,8 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .logo{
-    margin-left: 30px 20px 30px;
+  .logo {
+    margin: 30px 20px 30px;
   }
 
   .list {
